@@ -1,9 +1,12 @@
 #================
 # Unity generated
-# Via https://unity3d.com/learn/tutorials/modules/beginner/architecture/folders-in-version-control
 #================
 Temp/
 Library/
+# Exclude always-generated Visual Studio / MonoDevelop project files.
+src/Unity5Project/*.sln
+src/Unity5Project/*.csproj
+
 
 #================
 # Xcode 6 / OS X
