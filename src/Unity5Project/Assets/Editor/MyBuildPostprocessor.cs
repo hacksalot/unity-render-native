@@ -10,7 +10,7 @@ public class MyBuildPostprocessor
 	{
 		if(target == BuildTarget.MetroPlayer)
 			OnPostprocessBuildWSA(pathToBuiltProject);
-		else if(target == BuildTarget.iPhone)
+		else if(target == BuildTarget.iOS)
 			OnPostprocessBuildIOS(pathToBuiltProject);
 	}
 
